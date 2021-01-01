@@ -1,0 +1,29 @@
+<view class="Sidebar">
+  <button bind:tap="handlePullDownRefresh">
+    PullDownRefresh
+  </button>
+  <button bind:tap="handlePullDownRefreshBugged">
+    bug (iOS)
+  </button>
+  <button bind:tap="handlePullDownRefreshFixed">
+    fixed
+  </button>
+  <button bind:tap="handlePullDownRefreshFixed2">
+    + (platform)
+  </button>
+</view>
+
+<view class="Sidebar isLeft">
+  <button bind:tap="handleScrollToTop">
+    scroll to top
+  </button>
+  <button bind:tap="handleScrollDown">
+    scroll down
+  </button>
+</view>
+
+<view class="para" wx:for="{{paras}}" wx:key="*this">
+  {{item}}
+</view>
+
+<!-- <view style="height: 300vh" /> -->
