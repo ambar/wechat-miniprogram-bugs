@@ -2,5 +2,11 @@
   "name": "wechat-miniprogram-bugs",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "gen": "gogen ."
+  },
+  "dependencies": {
+    "gogen": "^1.0.0"
+  }
 }

@@ -1,4 +1,6 @@
 {
+  "appid": "wx8568174bf43ef6f1",
+  "projectname": "${name}",
   "description": "项目配置文件",
   "packOptions": {
     "ignore": []
@@ -41,8 +43,6 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.1",
-  "appid": "wx8568174bf43ef6f1",
-  "projectname": "animate-bug",
   "debugOptions": {
     "hidedInDevtools": []
   },
