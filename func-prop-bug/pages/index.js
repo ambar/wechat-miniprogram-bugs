@@ -2,6 +2,12 @@ const app = getApp()
 
 Page({
   data: {
-    onLoad() { }
-  }
+    onOk() {
+      console.log(this)
+    },
+  },
+
+  onLoad() {
+    this.data.onOk()
+  },
 })
