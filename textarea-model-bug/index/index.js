@@ -4,9 +4,15 @@ Page({
   data: {
     inputValue: ''
   },
-  handleSubmit: function (e) {
+
+  handleSubmit(e) {
     console.log(e.type, e.timeStamp)
-    wx.showModal({ content: this.data.inputValue })
+    wx.showToast({ title: this.data.inputValue, icon: 'none' })
+  },
+
+  handleSubmitBugged(e) {
+    console.log(e.type, e.timeStamp)
+    wx.showToast({ title: this.data.inputValue, icon: 'none' })
   },
 
   handleTap(e) {

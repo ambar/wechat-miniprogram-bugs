@@ -1,4 +1,5 @@
 <form bindsubmit="handleSubmit">
-  <textarea focus model:value="{{inputValue}}" placeholder="输入内容" />
-  <button form-type="submit" bind:tap="handleTap">保存</button>
+  <textarea class="InputBox" focus model:value="{{inputValue}}" placeholder="输入内容" />
+  <button class="Button" bind:tap="handleSubmitBugged">保存 (Android bug)</button>
+  <button class="Button" form-type="submit" bind:tap="handleTap">保存（正常）</button>
 </form>

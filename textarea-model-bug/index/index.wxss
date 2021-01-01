@@ -1,3 +1,8 @@
-.textarea {
-  border: 1px solid #ccc;
+.InputBox {
+  padding: 1em;
+}
+
+.Button {
+  margin: 1em 0;
+  white-space: nowrap;
 }
