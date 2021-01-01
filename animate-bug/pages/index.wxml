@@ -1,0 +1,5 @@
+<view class="demo">
+  <bug />
+  <!-- <use-css /> -->
+  <navigator url="/pages/use-css" style="text-decoration: underline;">对比：CSS keyframes 效果</navigator>
+</view>

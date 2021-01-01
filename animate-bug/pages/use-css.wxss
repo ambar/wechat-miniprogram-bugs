@@ -1,0 +1,435 @@
+.title {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background: lightcoral;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: lightcoral;
+  border-radius: 50%;
+}
+
+/* https://github.com/animate-css/animate.css/blob/main/source/bouncing_entrances/bounceIn.css */
+@keyframes bounceIn {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    /* animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); */
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation: bounceIn 1.5s infinite;
+  /* animation-duration: 1.5s; */
+  /* animation-name: bounceIn; */
+}
+
+.fxCurve {
+  animation: fxCurve 1.5s infinite;
+}
+
+@keyframes fxCurve {
+  0% {
+    transform: rotate(0deg) translateX(0px);
+  }
+
+  1.1111111111111112% {
+    transform: rotate(4deg) translateX(2px);
+  }
+
+  2.2222222222222223% {
+    transform: rotate(8deg) translateX(4px);
+  }
+
+  3.3333333333333335% {
+    transform: rotate(12deg) translateX(6px);
+  }
+
+  4.444444444444445% {
+    transform: rotate(16deg) translateX(8px);
+  }
+
+  5.555555555555555% {
+    transform: rotate(20deg) translateX(10px);
+  }
+
+  6.666666666666667% {
+    transform: rotate(24deg) translateX(12px);
+  }
+
+  7.777777777777778% {
+    transform: rotate(28deg) translateX(14px);
+  }
+
+  8.88888888888889% {
+    transform: rotate(32deg) translateX(16px);
+  }
+
+  10% {
+    transform: rotate(36deg) translateX(18px);
+  }
+
+  11.11111111111111% {
+    transform: rotate(40deg) translateX(20px);
+  }
+
+  12.222222222222221% {
+    transform: rotate(44deg) translateX(22px);
+  }
+
+  13.333333333333334% {
+    transform: rotate(48deg) translateX(24px);
+  }
+
+  14.444444444444443% {
+    transform: rotate(52deg) translateX(26px);
+  }
+
+  15.555555555555555% {
+    transform: rotate(56deg) translateX(28px);
+  }
+
+  16.666666666666664% {
+    transform: rotate(60deg) translateX(30px);
+  }
+
+  17.77777777777778% {
+    transform: rotate(64deg) translateX(32px);
+  }
+
+  18.88888888888889% {
+    transform: rotate(68deg) translateX(34px);
+  }
+
+  20% {
+    transform: rotate(72deg) translateX(36px);
+  }
+
+  21.11111111111111% {
+    transform: rotate(76deg) translateX(38px);
+  }
+
+  22.22222222222222% {
+    transform: rotate(80deg) translateX(40px);
+  }
+
+  23.333333333333332% {
+    transform: rotate(84deg) translateX(42px);
+  }
+
+  24.444444444444443% {
+    transform: rotate(88deg) translateX(44px);
+  }
+
+  25.555555555555554% {
+    transform: rotate(92deg) translateX(46px);
+  }
+
+  26.666666666666668% {
+    transform: rotate(96deg) translateX(48px);
+  }
+
+  27.77777777777778% {
+    transform: rotate(100deg) translateX(50px);
+  }
+
+  28.888888888888886% {
+    transform: rotate(104deg) translateX(52px);
+  }
+
+  30% {
+    transform: rotate(108deg) translateX(54px);
+  }
+
+  31.11111111111111% {
+    transform: rotate(112deg) translateX(56px);
+  }
+
+  32.22222222222222% {
+    transform: rotate(116deg) translateX(58px);
+  }
+
+  33.33333333333333% {
+    transform: rotate(120deg) translateX(60px);
+  }
+
+  34.44444444444444% {
+    transform: rotate(124deg) translateX(62px);
+  }
+
+  35.55555555555556% {
+    transform: rotate(128deg) translateX(64px);
+  }
+
+  36.666666666666664% {
+    transform: rotate(132deg) translateX(66px);
+  }
+
+  37.77777777777778% {
+    transform: rotate(136deg) translateX(68px);
+  }
+
+  38.88888888888889% {
+    transform: rotate(140deg) translateX(70px);
+  }
+
+  40% {
+    transform: rotate(144deg) translateX(72px);
+  }
+
+  41.11111111111111% {
+    transform: rotate(148deg) translateX(74px);
+  }
+
+  42.22222222222222% {
+    transform: rotate(152deg) translateX(76px);
+  }
+
+  43.333333333333336% {
+    transform: rotate(156deg) translateX(78px);
+  }
+
+  44.44444444444444% {
+    transform: rotate(160deg) translateX(80px);
+  }
+
+  45.55555555555556% {
+    transform: rotate(164deg) translateX(82px);
+  }
+
+  46.666666666666664% {
+    transform: rotate(168deg) translateX(84px);
+  }
+
+  47.77777777777778% {
+    transform: rotate(172deg) translateX(86px);
+  }
+
+  48.888888888888886% {
+    transform: rotate(176deg) translateX(88px);
+  }
+
+  50% {
+    transform: rotate(180deg) translateX(90px);
+  }
+
+  51.11111111111111% {
+    transform: rotate(184deg) translateX(92px);
+  }
+
+  52.22222222222223% {
+    transform: rotate(188deg) translateX(94px);
+  }
+
+  53.333333333333336% {
+    transform: rotate(192deg) translateX(96px);
+  }
+
+  54.44444444444444% {
+    transform: rotate(196deg) translateX(98px);
+  }
+
+  55.55555555555556% {
+    transform: rotate(200deg) translateX(100px);
+  }
+
+  56.666666666666664% {
+    transform: rotate(204deg) translateX(102px);
+  }
+
+  57.77777777777777% {
+    transform: rotate(208deg) translateX(104px);
+  }
+
+  58.88888888888889% {
+    transform: rotate(212deg) translateX(106px);
+  }
+
+  60% {
+    transform: rotate(216deg) translateX(108px);
+  }
+
+  61.111111111111114% {
+    transform: rotate(220deg) translateX(110px);
+  }
+
+  62.22222222222222% {
+    transform: rotate(224deg) translateX(112px);
+  }
+
+  63.33333333333333% {
+    transform: rotate(228deg) translateX(114px);
+  }
+
+  64.44444444444444% {
+    transform: rotate(232deg) translateX(116px);
+  }
+
+  65.55555555555556% {
+    transform: rotate(236deg) translateX(118px);
+  }
+
+  66.66666666666666% {
+    transform: rotate(240deg) translateX(120px);
+  }
+
+  67.77777777777779% {
+    transform: rotate(244deg) translateX(122px);
+  }
+
+  68.88888888888889% {
+    transform: rotate(248deg) translateX(124px);
+  }
+
+  70% {
+    transform: rotate(252deg) translateX(126px);
+  }
+
+  71.11111111111111% {
+    transform: rotate(256deg) translateX(128px);
+  }
+
+  72.22222222222221% {
+    transform: rotate(260deg) translateX(130px);
+  }
+
+  73.33333333333333% {
+    transform: rotate(264deg) translateX(132px);
+  }
+
+  74.44444444444444% {
+    transform: rotate(268deg) translateX(134px);
+  }
+
+  75.55555555555556% {
+    transform: rotate(272deg) translateX(136px);
+  }
+
+  76.66666666666667% {
+    transform: rotate(276deg) translateX(138px);
+  }
+
+  77.77777777777779% {
+    transform: rotate(280deg) translateX(140px);
+  }
+
+  78.88888888888889% {
+    transform: rotate(284deg) translateX(142px);
+  }
+
+  80% {
+    transform: rotate(288deg) translateX(144px);
+  }
+
+  81.11111111111111% {
+    transform: rotate(292deg) translateX(146px);
+  }
+
+  82.22222222222221% {
+    transform: rotate(296deg) translateX(148px);
+  }
+
+  83.33333333333334% {
+    transform: rotate(300deg) translateX(150px);
+  }
+
+  84.44444444444444% {
+    transform: rotate(304deg) translateX(152px);
+  }
+
+  85.55555555555556% {
+    transform: rotate(308deg) translateX(154px);
+  }
+
+  86.66666666666667% {
+    transform: rotate(312deg) translateX(156px);
+  }
+
+  87.77777777777777% {
+    transform: rotate(316deg) translateX(158px);
+  }
+
+  88.88888888888889% {
+    transform: rotate(320deg) translateX(160px);
+  }
+
+  90% {
+    transform: rotate(324deg) translateX(162px);
+  }
+
+  91.11111111111111% {
+    transform: rotate(328deg) translateX(164px);
+  }
+
+  92.22222222222223% {
+    transform: rotate(332deg) translateX(166px);
+  }
+
+  93.33333333333333% {
+    transform: rotate(336deg) translateX(168px);
+  }
+
+  94.44444444444444% {
+    transform: rotate(340deg) translateX(170px);
+  }
+
+  95.55555555555556% {
+    transform: rotate(344deg) translateX(172px);
+  }
+
+  96.66666666666667% {
+    transform: rotate(348deg) translateX(174px);
+  }
+
+  97.77777777777777% {
+    transform: rotate(352deg) translateX(176px);
+  }
+
+  100% {
+    transform: rotate(356deg) translateX(178px);
+  }
+}

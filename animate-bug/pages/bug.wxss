@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background: lightcoral;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: lightcoral;
+  border-radius: 50%;
+}

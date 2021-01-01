@@ -1,0 +1,8 @@
+<view class="title">bug 1: 不连贯、抖动</view>
+<view class="center">
+  <view class="box" />
+</view>
+<view class="title">bug 2: 没有插值（1 与 4 之间透明度）</view>
+<view class="center">
+  <view class="circle" />
+</view>

@@ -1,0 +1,4 @@
+<form bindsubmit="handleSubmit">
+  <textarea focus model:value="{{inputValue}}" placeholder="输入内容" />
+  <button form-type="submit" bind:tap="handleTap">保存</button>
+</form>

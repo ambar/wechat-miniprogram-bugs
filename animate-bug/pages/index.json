@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "use-css": "./use-css",
+    "bug": "./bug"
+  }
+}

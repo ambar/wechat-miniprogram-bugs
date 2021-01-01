@@ -1,0 +1,8 @@
+<view class="title">轨迹连贯</view>
+<view class="center">
+  <view class="box fxCurve" />
+</view>
+<view class="title">插值正常</view>
+<view class="center">
+  <view class="circle bounceIn" />
+</view>
