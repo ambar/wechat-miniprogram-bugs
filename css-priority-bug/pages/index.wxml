@@ -1,0 +1,11 @@
+<nav extClass="u-primary">
+  我应该是蓝色
+</nav>
+
+<nav extClass="u-bold u-center">
+  我应该是粗体且居中
+</nav>
+
+<nav rootClass="u-bold u-center">
+  我应该是粗体且居中
+</nav>

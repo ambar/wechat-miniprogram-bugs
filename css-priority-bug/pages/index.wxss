@@ -1,0 +1,12 @@
+.u-primary {
+  color: #08f;
+  font-weight: bold;
+}
+
+.u-bold {
+  font-weight: bold;
+}
+
+.u-center {
+  text-align: center;
+}

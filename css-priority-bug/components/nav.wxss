@@ -1,0 +1,7 @@
+.Nav {
+  color: #333;
+}
+
+:host {
+  display: contents;
+}
