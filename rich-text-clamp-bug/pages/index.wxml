@@ -1,0 +1,8 @@
+<text>我下面有缩略内容：</text>
+<view class="content">
+  <rich-text nodes="{{html}}" />
+</view>
+<text>我下面有缩略内容：</text>
+<view class="content">
+  <rich-text nodes="{{html2}}" />
+</view>
