@@ -1,3 +1,5 @@
+<view class="heading">普通自定义组件</view>
+
 <nav extClass="u-primary">
   我应该是蓝色
 </nav>
@@ -9,3 +11,17 @@
 <nav rootClass="u-bold u-center">
   我应该是粗体且居中
 </nav>
+
+<view class="heading">使用 `addGlobalClass` 组件</view>
+
+<cool-button extClass="MyButton u-large">我应该是红色且加大</cool-button>
+<ref-cool-button>我为什么红了</ref-cool-button>
+
+<view class="heading">使用全局自定义组件</view>
+
+<global-button extClass="MyButton u-large">我应该是红色且加大</global-button>
+<ref-global-button>我为什么红了</ref-global-button>
+
+<!-- <navigator url="/pages/home">home</navigator>
+<navigator url="/pages/about">about</navigator>
+<navigator url="/pages/component-as-page">component-as-page</navigator> -->

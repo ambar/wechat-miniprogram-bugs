@@ -1,0 +1,8 @@
+.GlobalButton {
+  padding: unset;
+  background: unset;
+  font-size: unset;
+  color: unset;
+  white-space: nowrap;
+  width: 100%;
+}

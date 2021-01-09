@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cool-button": "/components/cool-button"
+  }
+}

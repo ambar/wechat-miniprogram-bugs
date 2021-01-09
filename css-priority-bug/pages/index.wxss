@@ -1,3 +1,10 @@
+.heading {
+  margin: 3em 0 1em;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
 .u-primary {
   color: #08f;
   font-weight: bold;
@@ -9,4 +16,13 @@
 
 .u-center {
   text-align: center;
+}
+
+.u-large {
+  font-size: 1.2em;
+}
+
+.CoolButton,
+.MyButton {
+  color: red;
 }

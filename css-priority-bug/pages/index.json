@@ -1,5 +1,9 @@
 {
+  "navigationBarTitleText": "home",
   "usingComponents": {
+    "ref-global-button": "/components/ref-global-button",
+    "ref-cool-button": "/components/ref-cool-button",
+    "cool-button": "/components/cool-button",
     "nav": "../components/nav"
   }
 }

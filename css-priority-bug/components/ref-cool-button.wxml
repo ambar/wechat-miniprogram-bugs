@@ -1,0 +1,4 @@
+<cool-button class="RefCoolButton">
+  ref:
+  <slot />
+</cool-button>

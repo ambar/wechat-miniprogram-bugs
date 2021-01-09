@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "about",
+  "usingComponents": {
+    "cool-button": "/components/cool-button",
+    "ref-global-button": "/components/ref-global-button"
+  }
+}

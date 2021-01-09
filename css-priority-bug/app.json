@@ -1,12 +1,28 @@
 {
   "pages": [
-    "pages/index"
+    "pages/index",
+    "pages/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/about",
+        "text": "about"
+      }
+    ]
+  },
+  "usingComponents": {
+    "global-button": "/components/global-button"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
